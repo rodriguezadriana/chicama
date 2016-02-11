@@ -1,0 +1,130 @@
+/*
+	Inserta tu CSS aqui
+*/
+.grupo{
+	width: 100%;
+	position: absolute;
+	z-index: 1
+
+}
+.absoluta{
+	    
+        height: auto;
+        position: absolute;
+        top:90px;
+        left: 250px;
+        width: 400px;
+        height: 60px;
+        z-index: 2;
+
+}
+.menu{
+	list-style: none;
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	margin-left: 40px;
+
+
+}
+.lista{
+	float: left;
+	width:90px;
+    display: block;
+    text-align: center;
+    padding: 35px  ;
+    color:black;
+    
+}
+.sumate{
+	background-color: #F2A007;
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	padding: 15px;
+	top:  100px;
+	right: 900px;
+
+
+}
+.sombra{
+	-webkit-box-shadow: -9px 2px 55px 5px rgba(10,10,10,1);
+-moz-box-shadow: -9px 2px 55px 5px rgba(10,10,10,1);
+box-shadow: -9px 2px 55px 5px rgba(10,10,10,1);
+}
+
+.galeria-chica{
+     
+	margin-top: 1000px;
+	
+    height:150px;
+	width: 250px;
+	position: relative;
+	left: 30px;
+	
+
+}
+
+#lado{
+
+    display: inline-block;
+    position: relative;
+}
+
+.nombres2{
+	font-size: 90%;
+    font-style: arial;
+    color:#383631;
+    
+    position: relative;
+    left:50px;
+
+ }
+ hr{
+ 	height: 5px;
+ 	background-color: black;
+ 	margin-top: 5px;
+
+ }
+ .gris{
+ 	background-color: #383631;
+ 	height: 70px;
+ 	margin-top: 150px;
+ 	-webkit-box-shadow: 1px 9px 55px 5px rgba(10,10,10,1);
+    -moz-box-shadow: 1px 9px 55px 5px rgba(10,10,10,1);
+    box-shadow: 1px 9px 55px 5px rgba(10,10,10,1);
+
+
+ }
+ .footer{
+
+	list-style: none;
+	position: absolute;
+	margin: 20px 0px 0px 500px;
+}
+.lista2{
+    float: left;
+	display: block;
+    text-align: center;
+    border-right:2px solid #F2A007;
+    color:#999;
+    padding:3px;
+    font-size: 13px;
+
+}
+button:before {
+ content:'';
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 0px;
+ height: 42px;
+ background: rgba(255,255,255,0.3);
+ border-radius: 5px;
+ transition: all 2s ease;
+}
+button:hover:before {
+ width: 100%;
+}
